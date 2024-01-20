@@ -1,0 +1,65 @@
+.news__wrap {
+    max-width: 564px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.news__info-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 42px;
+    text-align: center;
+    color: #252525;
+}
+
+.news__info-form {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.news__info-form-email {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 19px;
+    text-align: center;
+    color: #25252580;
+    padding: 15px 215px;
+}
+
+.news__info-form-subscribe {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #E0BEA2;
+    color: #fff;
+    padding: 15px 215px;
+    border: 5px solid #E0BEA2;
+    transition: .2s linear;
+}
+
+.news__info-form-subscribe:hover {
+    background: #252525;
+    color: #fff;
+    border: 5px solid #252525;
+}
+
+.news__info-agreement-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #252525;
+    width: 600px;
+    margin-top: -20px;
+}

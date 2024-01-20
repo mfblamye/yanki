@@ -1,0 +1,117 @@
+.header {
+    background: url(../img/photo_bg.png) no-repeat top/cover;
+    height: 100svh;
+    padding: 25px 0;
+    overflow: hidden;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header__nav-logo-img {
+    position: relative;
+    top: 33px;
+}
+
+.header__nav-list-item-li {
+    position: relative;
+    left: 150px;
+}
+
+.header__nav-list-item-icons {
+    position: relative;
+    left: 200px;
+    transition: .2s linear;
+    opacity: 0.5;
+}
+
+.header__nav-list-item-icons:hover {
+    opacity: 1;
+    scale: 1.05;
+}
+
+.header__nav-list-item-logo {
+    position: relative;
+    left: 110px;
+}
+
+.header__nav-list-item-link {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    font-family: 'Raleway';
+    transition: .2S linear;
+    text-transform: uppercase;
+    transition: .2s linear;
+}
+
+.header__nav-list-item-link:hover {
+    color: #000;
+}
+
+.header__nav-list-item-li img {
+    position: relative;
+    transition: transform .2s linear;
+}
+
+.header__nav-list-item-li img:hover {
+    transform: translateY(4px);
+}
+
+.header__box-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 350px;
+    gap: 40px;
+}
+
+.header__box-desc-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 46px;
+    font-weight: 300;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.header__box-desc-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.header__box-arrow {
+    transition: transform .2s linear;
+    cursor: pointer;
+}
+
+.header__box-arrow:hover {
+    transform: translateX(3px);
+}
