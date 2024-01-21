@@ -46,18 +46,25 @@
 
 .footer__item-social-link {
     opacity: 0.5;
+    display: flex;
+    gap: 10px;
 }
 
 .footer__item-social-link:hover {
     opacity: 1;
-    scale: 1.05;
 }
 
 .footer__item-contacts {
-    font-family: 'Raleway' sans-serif;
     font-size: 16px;
     font-weight: 200;
     line-height: 19px;
     text-align: left;
     color: #252525;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer__item-social-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
